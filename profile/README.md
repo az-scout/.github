@@ -6,18 +6,18 @@ az-scout aggregates five live Azure ARM signals (SKU availability, vCPU quotas, 
 
 ## Core
 
-| | |
-|---|---|
-| ⭐ **[az-scout](https://github.com/az-scout/az-scout)** | FastAPI backend, D3.js frontend, MCP server, AI chat assistant, plugin system |
+| | | |
+|---|---|---|
+| ⭐ **[az-scout](https://github.com/az-scout/az-scout)** | FastAPI backend, D3.js frontend, MCP server, AI chat assistant, plugin system | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout?label=release) |
 
 ## Plugins
 
-| Repository | Description |
-|---|---|
-| [az-scout-plugin-strategy-advisor](https://github.com/az-scout/az-scout-plugin-strategy-advisor) | AI-powered deployment strategy advisor |
-| [az-scout-plugin-batch-sku](https://github.com/az-scout/az-scout-plugin-batch-sku) | Azure Batch SKU availability |
-| [az-scout-plugin-avs-sku](https://github.com/az-scout/az-scout-plugin-avs-sku) | Azure VMware Solution SKU availability |
-| [az-scout-plugin-latency-stats](https://github.com/az-scout/az-scout-plugin-latency-stats) | Inter-region network latency statistics |
+| Repository | Description | Release |
+|---|---|---|
+| [az-scout-plugin-strategy-advisor](https://github.com/az-scout/az-scout-plugin-strategy-advisor) | AI-powered deployment strategy advisor | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-strategy-advisor?label=) |
+| [az-scout-plugin-batch-sku](https://github.com/az-scout/az-scout-plugin-batch-sku) | Azure Batch SKU availability | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-batch-sku?label=) |
+| [az-scout-plugin-avs-sku](https://github.com/az-scout/az-scout-plugin-avs-sku) | Azure VMware Solution SKU availability | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-avs-sku?label=) |
+| [az-scout-plugin-latency-stats](https://github.com/az-scout/az-scout-plugin-latency-stats) | Inter-region network latency statistics | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-latency-stats?label=) |
 
 ## Quick start
 
