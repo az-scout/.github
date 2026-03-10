@@ -1,4 +1,4 @@
-# az-scout
+# Azure Scout
 
 **Open-source Azure deployment planning platform** — real-time SKU availability, zone mappings, deployment confidence scoring, and AI-powered planning.
 
@@ -18,7 +18,7 @@ FastAPI backend · D3.js visualization · MCP server · AI chat assistant · Plu
 uvx az-scout
 ```
 
-📖 [Documentation](https://az-scout.github.io/az-scout/) · 🐳 [Container image](https://ghcr.io/az-scout/az-scout)
+📖 [Documentation](https://az-scout.com) · 🐳 [Container image](https://ghcr.io/az-scout/az-scout)
 
 </div>
 
