@@ -15,7 +15,7 @@ FastAPI backend · D3.js visualization · MCP server · AI chat assistant · Plu
 ![License](https://img.shields.io/github/license/az-scout/az-scout)
 
 ```
-pip install az-scout && az-scout
+uvx az-scout
 ```
 
 📖 [Documentation](https://az-scout.github.io/az-scout/) · 🐳 [Container image](https://ghcr.io/az-scout/az-scout)
