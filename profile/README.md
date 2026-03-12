@@ -32,3 +32,4 @@ uvx az-scout
 | [az-scout-plugin-batch-sku](https://github.com/az-scout/az-scout-plugin-batch-sku) | Azure Batch SKU availability | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-batch-sku?label=) |
 | [az-scout-plugin-avs-sku](https://github.com/az-scout/az-scout-plugin-avs-sku) | Azure VMware Solution SKU availability | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-avs-sku?label=) |
 | [az-scout-plugin-latency-stats](https://github.com/az-scout/az-scout-plugin-latency-stats) | Inter-region network latency statistics | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-latency-stats?label=) |
+| [az-scout-plugin-odcr-coverage](https://github.com/az-scout/az-scout-plugin-odcr-coverage) | Analyses On-Demand Capacity Reservation (ODCR) coverage for Azure VMs | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-odcr-coverage?label=) |
