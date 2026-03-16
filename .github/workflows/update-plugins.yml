@@ -1,0 +1,60 @@
+name: Update Plugin List
+
+on:
+  repository_dispatch:
+    types: [catalog-updated]
+  schedule:
+    - cron: "0 6 * * *" # daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch catalog and update README
+        run: |
+          python3 << 'EOF'
+          import json, re, urllib.request
+
+          CATALOG_URL = "https://raw.githubusercontent.com/az-scout/plugin-catalog/main/catalog.json"
+          README = "profile/README.md"
+
+          catalog = json.loads(urllib.request.urlopen(CATALOG_URL).read())
+
+          header = "| Repository | Description | Release |\n|---|---|---|"
+          rows = []
+          for p in sorted(catalog, key=lambda x: x["name"]):
+              repo_url = p["repository"]
+              repo_name = repo_url.rstrip("/").rsplit("/", 1)[-1]
+              org_repo = "/".join(repo_url.rstrip("/").rsplit("/", 2)[-2:])
+              badge = f"![GitHub Release](https://img.shields.io/github/v/release/{org_repo}?label=)"
+              rows.append(f"| [{repo_name}]({repo_url}) | {p['description']} | {badge} |")
+
+          table = header + "\n" + "\n".join(rows)
+
+          readme = open(README).read()
+          updated = re.sub(
+              r"<!-- PLUGINS-START -->.*?<!-- PLUGINS-END -->",
+              f"<!-- PLUGINS-START -->\n{table}\n<!-- PLUGINS-END -->",
+              readme,
+              flags=re.DOTALL,
+          )
+
+          if updated != readme:
+              open(README, "w").write(updated)
+              print(f"✅ Updated plugin table ({len(catalog)} plugins)")
+          else:
+              print("ℹ️ No changes")
+          EOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git diff --cached --quiet || git commit -m "docs: update plugin list from catalog" && git push
