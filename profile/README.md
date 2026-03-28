@@ -29,10 +29,10 @@ uvx az-scout
 <!-- PLUGINS-START -->
 | Repository | Description | Release |
 |---|---|---|
-| [az-scout-plugin-avs-rvtools-analyser](https://github.com/az-scout/az-scout-plugin-avs-rvtools-analyser) | AVS migration risk analysis from RVTools Excel exports — 19 risk categories. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-avs-rvtools-analyser?label=) |
+| [az-scout-plugin-avs-rvtools-analyser](https://github.com/az-scout/az-scout-plugin-avs-rvtools-analyser) | AVS migration risk analysis from RVTools Excel exports. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-avs-rvtools-analyser?label=) |
 | [az-scout-plugin-avs-sku](https://github.com/az-scout/az-scout-plugin-avs-sku) | Azure VMware Solution (AVS) SKU exploration. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-avs-sku?label=) |
-| [az-scout-plugin-batch-sku](https://github.com/az-scout/az-scout-plugin-batch-sku) | Batch SKU availability checker across multiple regions. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-batch-sku?label=) |
-| [az-scout-plugin-latency-stats](https://github.com/az-scout/az-scout-plugin-latency-stats) | Inter-region latency statistics with D3.js graph visualisation. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-latency-stats?label=) |
+| [az-scout-plugin-batch-sku](https://github.com/az-scout/az-scout-plugin-batch-sku) | Azure Batch SKU availability checker across multiple regions. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-batch-sku?label=) |
+| [az-scout-plugin-latency-stats](https://github.com/az-scout/az-scout-plugin-latency-stats) | Inter-region latency statistics with D3.js graph visualization. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-latency-stats?label=) |
 | [az-scout-plugin-odcr-coverage](https://github.com/az-scout/az-scout-plugin-odcr-coverage) | ODCR coverage analysis — identify VMs at risk of allocation failure. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-odcr-coverage?label=) |
 | [az-scout-plugin-regions-cheapest](https://github.com/az-scout/az-scout-plugin-regions-cheapest) | Find the cheapest Azure regions for a given VM SKU. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-regions-cheapest?label=) |
 | [az-scout-plugin-strategy-advisor](https://github.com/az-scout/az-scout-plugin-strategy-advisor) | Multi-region capacity strategy recommendation engine. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-strategy-advisor?label=) |
