@@ -29,6 +29,7 @@ uvx az-scout
 <!-- PLUGINS-START -->
 | Repository | Description | Release |
 |---|---|---|
+| [az-scout-plugin-aks-placement-advisor](https://github.com/az-scout/az-scout-plugin-aks-placement-advisor) | AKS Placement Advisor — evaluates and recommends VM SKUs for AKS node pools. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-aks-placement-advisor?label=) |
 | [az-scout-plugin-avs-rvtools-analyser](https://github.com/az-scout/az-scout-plugin-avs-rvtools-analyser) | AVS migration risk analysis from RVTools Excel exports. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-avs-rvtools-analyser?label=) |
 | [az-scout-plugin-avs-sku](https://github.com/az-scout/az-scout-plugin-avs-sku) | Azure VMware Solution (AVS) SKU exploration. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-avs-sku?label=) |
 | [az-scout-plugin-batch-sku](https://github.com/az-scout/az-scout-plugin-batch-sku) | Azure Batch SKU availability checker across multiple regions. | ![GitHub Release](https://img.shields.io/github/v/release/az-scout/az-scout-plugin-batch-sku?label=) |
